@@ -20,13 +20,361 @@
   <link rel="icon" type="image/png" href="https://i.postimg.cc/W3DS9G0f/IMG-20260226-WA0019-copy-515x515.jpg">
   <link rel="apple-touch-icon" href="https://i.postimg.cc/W3DS9G0f/IMG-20260226-WA0019-copy-515x515.jpg">
   
+  <!-- تحميل مسبق للصورة الرئيسية -->
+  <link rel="preload" as="image" href="https://i.postimg.cc/NM7LvV8k/IMG-20260226-WA0018-copy-344x344.jpg" fetchpriority="high">
+  
   <!-- Font Awesome مع تأجيل -->
   <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"></noscript>
   
   <style>
-    /* CSS محسّن مع إعادة صورة البطل */
-    .hero,header{display:flex}h2.section-title,header{border-bottom:3px solid #e67e22}footer,header,nav{background:#006054}@font-face{font-family:'Font Awesome 6 Free';font-style:normal;font-weight:900;font-display:swap;src:url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/webfonts/fa-solid-900.woff2) format('woff2')}*{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif}body,html{overflow-x:hidden;width:100%;background:#f8f5f0}header{height:12vh;min-height:70px;align-items:center;justify-content:space-between;padding:0 10px;position:sticky;top:0;z-index:1000}.logo img{height:10vh;min-height:60px;width:auto}.header-title{text-align:center;flex-grow:1}.header-title h1{font-size:clamp(1rem,3vw,1.5rem);color:#fff;line-height:1.2}.header-title p{font-size:clamp(.6rem,2vw,.8rem);color:#e67e22}.header-stats{display:flex;gap:5px;font-size:.7rem;background:rgba(0,0,0,.4);padding:4px 8px;border-radius:20px;border:1px solid #967969}.header-stats span,.social-links a:hover{color:#fff}.designer span,.header-stats i,.seo-intro strong{color:#e67e22}nav{padding:5px 0;border-bottom:2px solid #e67e22;overflow-x:auto;white-space:nowrap;width:100%}nav a{display:inline-block;color:#fff;text-decoration:none;padding:5px 10px;margin:0 2px;background:rgba(230,126,34,.2);border-radius:20px;font-size:.8rem}nav a:hover{background:#e67e22}.hero{position:relative;min-height:30vh;align-items:center;justify-content:center;text-align:center;color:#fff;padding:20px;background-color:#1a2a1a;background-image:url('https://i.postimg.cc/NM7LvV8k/IMG-20260226-WA0018-copy-344x344.jpg');background-size:cover;background-position:center}/* دعم WebP للمتصفحات الحديثة */@supports (background-image:image-set(url('img.webp') type('image/webp'))){.hero{background-image:image-set(url('https://i.postimg.cc/NM7LvV8k/IMG-20260226-WA0018-copy-344x344.webp') type('image/webp'),url('https://i.postimg.cc/NM7LvV8k/IMG-20260226-WA0018-copy-344x344.jpg') type('image/jpeg'))}}.hero-content h2{font-size:clamp(2rem,5vw,2.8rem);margin-bottom:10px;text-shadow:3px 3px 12px rgba(0,0,0,.9);color:#fff}.hero-content p{font-size:clamp(1rem,3vw,1.2rem);color:#fff;text-shadow:2px 2px 8px rgba(0,0,0,.9)}.container{max-width:1400px;margin:0 auto;padding:20px 10px;width:100%}.seo-intro,h2.section-title{margin-bottom:20px;text-align:center}h2.section-title{font-size:1.8rem;color:#006054;display:inline-block;padding-bottom:5px;width:auto}.seo-intro{background:#fff;border-radius:12px;padding:15px;border:1px solid #967969}.seo-intro p{color:#1a2a1a;font-size:.9rem;line-height:1.6}.services-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}@media (min-width:768px){.services-grid{grid-template-columns:repeat(3,1fr);gap:15px}}@media (min-width:1024px){.services-grid{grid-template-columns:repeat(4,1fr);gap:15px}}.service-card{background:#fff;border-radius:12px;overflow:hidden;border:1px solid #967969;transition:.3s}.balance-card .btn-balance,.btn-service-small{background-color:#e67e22;text-decoration:none}.service-card:hover{transform:translateY(-5px);box-shadow:0 10px 25px rgba(230,126,34,.2);border-color:#e67e22}.service-card a{display:block;text-decoration:none;color:inherit;height:100%}.image-container{position:relative;width:100%;height:160px;overflow:background}.image-container img{width:100%;height:100%;object-fit:cover;transition:.5s}.service-card:hover img{transform:scale(1.05)}.card-content{padding:10px 8px;text-align:center}.card-content h3{color:#006054;font-size:.9rem;font-weight:600;margin-bottom:4px}.card-content p{color:#1a2a1a;font-size:.75rem;line-height:1.3;margin-bottom:6px}.btn-service-small{color:#fff;padding:4px 8px;border-radius:15px;font-size:.7rem;display:inline-block;border:none}.balance-card,footer{color:#fff;text-align:center;padding:15px 10px}.balance-card{background:linear-gradient(145deg,#006054,#0a7a6b);border-radius:12px;border:2px solid #e67e22;display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;min-height:320px}.balance-card i{font-size:2.5rem;color:#e67e22;margin-bottom:10px}.balance-card h3{font-size:1.2rem;font-weight:700;margin-bottom:8px}.balance-card p{font-size:.85rem;line-height:1.5;margin-bottom:15px}.balance-card .btn-balance{color:#fff;padding:6px 15px;border-radius:25px;font-weight:600;font-size:.8rem}.balance-card .btn-balance:hover{background-color:#006054}.float-btn{position:fixed;bottom:15px;width:45px;height:45px;border-radius:50%;color:#fff;display:flex;align-items:center;justify-content:center;font-size:1.4rem;z-index:9999;text-decoration:none}.float-btn.whatsapp{left:10px;background-color:#25d366}.float-btn.phone{right:10px;background-color:#006054}footer{margin-top:20px;border-top:3px solid #e67e22;font-size:.75rem}.social-links{display:flex;justify-content:center;gap:15px;margin:10px 0}.social-links a{color:#e67e22;font-size:1.3rem;text-decoration:none}.designer{margin-top:8px;font-size:.65rem;color:#ccc}@media (max-width:480px){.header-stats span:first-child{display:none}.image-container{height:140px}}
+    /* ===== تعريف الخطوط ===== */
+    @font-face {
+      font-family: 'Font Awesome 6 Brands';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/webfonts/fa-brands-400.woff2) format('woff2');
+    }
+    @font-face {
+      font-family: 'Font Awesome 6 Free';
+      font-style: normal;
+      font-weight: 900;
+      font-display: swap;
+      src: url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/webfonts/fa-solid-900.woff2) format('woff2');
+    }
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    html, body {
+      overflow-x: hidden;
+      width: 100%;
+      background: #f8f5f0;
+    }
+    
+    /* ===== ترويسة ===== */
+    header {
+      height: 12vh;
+      min-height: 70px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 10px;
+      background: #006054;
+      border-bottom: 3px solid #E67E22;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    .logo img {
+      height: 10vh;
+      min-height: 60px;
+      width: auto;
+    }
+    .header-title {
+      text-align: center;
+      flex-grow: 1;
+    }
+    .header-title h1 {
+      font-size: clamp(1rem, 3vw, 1.5rem);
+      color: #ffffff;
+      line-height: 1.2;
+    }
+    .header-title p {
+      font-size: clamp(0.6rem, 2vw, 0.8rem);
+      color: #E67E22;
+    }
+    .header-stats {
+      display: flex;
+      gap: 5px;
+      font-size: 0.7rem;
+      background: rgba(0, 0, 0, 0.3); /* أغمق قليلاً لتحسين التباين */
+      padding: 4px 8px;
+      border-radius: 20px;
+      border: 1px solid #967969;
+    }
+    .header-stats span {
+      color: #ffffff;
+    }
+    .header-stats i {
+      color: #E67E22;
+    }
+    
+    /* ===== شريط تنقل ===== */
+    nav {
+      background: #006054;
+      padding: 5px 0;
+      border-bottom: 2px solid #E67E22;
+      overflow-x: auto;
+      white-space: nowrap;
+      width: 100%;
+    }
+    nav a {
+      display: inline-block;
+      color: #ffffff;
+      text-decoration: none;
+      padding: 5px 10px;
+      margin: 0 2px;
+      background: rgba(230, 126, 34, 0.2);
+      border-radius: 20px;
+      font-size: 0.8rem;
+    }
+    nav a:hover {
+      background: #E67E22;
+    }
+    
+    /* ===== قسم البطل ===== */
+    .hero {
+      position: relative;
+      min-height: 30vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background-image: url('https://i.postimg.cc/NM7LvV8k/IMG-20260226-WA0018-copy-344x344.jpg');
+      background-size: cover;
+      background-position: center;
+      color: #ffffff;
+      padding: 20px;
+    }
+    .hero-content h2 {
+      font-size: clamp(2rem, 5vw, 2.8rem);
+      margin-bottom: 10px;
+      text-shadow: 3px 3px 12px rgba(0,0,0,0.9); /* زيادة التباين */
+      color: #ffffff;
+    }
+    .hero-content p {
+      font-size: clamp(1rem, 3vw, 1.2rem);
+      color: #ffffff;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.9); /* زيادة التباين */
+    }
+    
+    /* ===== الحاوية ===== */
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 20px 10px;
+      width: 100%;
+    }
+    h2.section-title {
+      text-align: center;
+      font-size: 1.8rem;
+      color: #006054;
+      border-bottom: 3px solid #E67E22;
+      display: inline-block;
+      padding-bottom: 5px;
+      margin-bottom: 20px;
+      width: auto;
+    }
+    
+    /* ===== نص تعريف ===== */
+    .seo-intro {
+      background: #ffffff;
+      border-radius: 12px;
+      padding: 15px;
+      margin-bottom: 20px;
+      border: 1px solid #967969;
+      text-align: center;
+    }
+    .seo-intro p {
+      color: #1a2a1a; /* أغمق قليلاً لتحسين التباين */
+      font-size: 0.9rem;
+      line-height: 1.6;
+    }
+    .seo-intro strong {
+      color: #E67E22;
+    }
+    
+    /* ===== شبكة الخدمات ===== */
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+    }
+    @media (min-width: 768px) {
+      .services-grid { grid-template-columns: repeat(3, 1fr); gap: 15px; }
+    }
+    @media (min-width: 1024px) {
+      .services-grid { grid-template-columns: repeat(4, 1fr); gap: 15px; }
+    }
+    
+    .service-card {
+      background: #ffffff;
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid #967969;
+      transition: 0.3s;
+    }
+    .service-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 25px rgba(230, 126, 34, 0.2);
+      border-color: #E67E22;
+    }
+    .service-card a {
+      display: block;
+      text-decoration: none;
+      color: inherit;
+      height: 100%;
+    }
+    .image-container {
+      position: relative;
+      width: 100%;
+      height: 160px;
+      overflow: hidden;
+    }
+    .image-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: 0.5s;
+    }
+    .service-card:hover img {
+      transform: scale(1.05);
+    }
+    .image-container .overlay {
+      position: absolute;
+      top: 0; left: 0; width: 100%; height: 100%;
+      background: rgba(230, 126, 34, 0.2);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      transition: 0.3s;
+      color: #ffffff;
+      font-size: 0.9rem;
+      font-weight: bold;
+    }
+    .image-container:hover .overlay {
+      opacity: 1;
+    }
+    .card-content {
+      padding: 10px 8px;
+      text-align: center;
+    }
+    .card-content h3 {
+      color: #006054;
+      font-size: 0.9rem;
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+    .card-content p {
+      color: #1a2a1a; /* أغمق لتحسين التباين */
+      font-size: 0.75rem;
+      line-height: 1.3;
+      margin-bottom: 6px;
+    }
+    .btn-service-small {
+      background-color: #E67E22;
+      color: #ffffff;
+      padding: 4px 8px;
+      border-radius: 15px;
+      font-size: 0.7rem;
+      display: inline-block;
+      text-decoration: none;
+      border: none;
+    }
+    
+    /* ===== بلوك متوازن ===== */
+    .balance-card {
+      background: linear-gradient(145deg, #006054, #0a7a6b);
+      border-radius: 12px;
+      border: 2px solid #E67E22;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      height: 100%;
+      min-height: 320px;
+      padding: 15px 10px;
+      color: #ffffff;
+    }
+    .balance-card i {
+      font-size: 2.5rem;
+      color: #E67E22;
+      margin-bottom: 10px;
+    }
+    .balance-card h3 {
+      font-size: 1.2rem;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+    .balance-card p {
+      font-size: 0.85rem;
+      line-height: 1.5;
+      margin-bottom: 15px;
+    }
+    .balance-card .btn-balance {
+      background-color: #E67E22;
+      color: #ffffff;
+      padding: 6px 15px;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.8rem;
+    }
+    .balance-card .btn-balance:hover {
+      background-color: #006054;
+    }
+    
+    /* ===== أزرار عائمة ===== */
+    .float-btn {
+      position: fixed; 
+      bottom: 15px; 
+      width: 45px; height: 45px;
+      border-radius: 50%;
+      color: #fff; 
+      display: flex; 
+      align-items: center; 
+      justify-content: center;
+      font-size: 1.4rem; 
+      z-index: 9999; 
+      text-decoration: none;
+    }
+    .float-btn.whatsapp { left: 10px; background-color: #25d366; }
+    .float-btn.phone { right: 10px; background-color: #006054; }
+    
+    /* ===== تذييل ===== */
+    footer {
+      background: #006054;
+      color: #ffffff;
+      text-align: center;
+      padding: 15px 10px;
+      margin-top: 20px;
+      border-top: 3px solid #E67E22;
+      font-size: 0.75rem;
+    }
+    .social-links {
+      display: flex; 
+      justify-content: center; 
+      gap: 15px; 
+      margin: 10px 0;
+    }
+    .social-links a {
+      color: #E67E22; 
+      font-size: 1.3rem; 
+      text-decoration: none;
+    }
+    .social-links a:hover {
+      color: #ffffff;
+    }
+    .designer { 
+      margin-top: 8px; 
+      font-size: 0.65rem; 
+      color: #ccc; 
+    }
+    .designer span { 
+      color: #E67E22; 
+    }
+    
+    @media (max-width: 480px) {
+      .header-stats span:first-child { display: none; }
+      .image-container { height: 140px; }
+    }
   </style>
 </head>
 <body>
@@ -59,35 +407,31 @@
   <a href="mashabat.html">مشبات</a>
 </nav>
 
-<!-- بداية المحتوى الرئيسي -->
-<main>
-  <!-- قسم البطل مع تحسين WebP باستخدام image-set في CSS -->
-  <section class="hero">
-    <div class="hero-content">
-      <h2>الظل العربي</h2>
-      <p>مظلات وسواتر الأحساء - جودة وتميز</p>
-    </div>
-  </section>
-
-  <div class="container">
-    <!-- نص تعريف -->
-    <div class="seo-intro">
-      <p><strong>الظل العربي</strong> أفضل شركة <strong>مظلات وسواتر في الأحساء</strong> تقدم خدمات متكاملة في <strong>الهفوف، المبرز، العيون، الجفر، والمنيزلة</strong> بخبرة 15 سنة. نوفر <strong>مظلات سيارات، مظلات مسابح، مظلات مواقف</strong> بأعلى جودة. كما نتميز في <strong>تنسيق الحدائق والعشب الصناعي</strong> الهولندي، <strong>بيوت الشعر الملكية</strong> بجلد PVC كوري، <strong>سواتر قماش وحديد وقص ليزر</strong>، <strong>برجولات حديد وخشب</strong>، <strong>مظلات لكسان</strong> شفافة، <strong>غرف ساندوتش بانل</strong>، <strong>ديكورات داخلية وخارجية</strong>، <strong>قرميد إسباني</strong> عازل، <strong>هناجر ومستودعات</strong>، و<strong>مشبات تراثية</strong>.</p>
-    </div>
-    
-    <h2 class="section-title">أقسامنا</h2>
-    <div class="services-grid" id="services-grid"></div>
+<!-- قسم البطل -->
+<section class="hero">
+  <div class="hero-content">
+    <h2>الظل العربي</h2>
+    <p>مظلات وسواتر الأحساء - جودة وتميز</p>
   </div>
+</section>
 
-  <!-- قسم الكلمات المفتاحية -->
-  <div class="container">
-    <div class="seo-keywords" style="background:#ffffff; border-radius:12px; padding:20px 15px; margin:20px 0; border:2px solid #967969;">
-      <h3 style="color:#006054; font-size:1.3rem; margin-bottom:15px; text-align:center; border-bottom:2px solid #E67E22; padding-bottom:5px;">كلمات مفتاحية: خدمات الظل العربي</h3>
-      <div class="keywords-grid" style="display:grid; grid-template-columns:repeat(2,1fr); gap:10px;" id="keywords-grid"></div>
-    </div>
+<div class="container">
+  <!-- نص تعريف -->
+  <div class="seo-intro">
+    <p><strong>الظل العربي</strong> أفضل شركة <strong>مظلات وسواتر في الأحساء</strong> تقدم خدمات متكاملة في <strong>الهفوف، المبرز، العيون، الجفر، والمنيزلة</strong> بخبرة 15 سنة. نوفر <strong>مظلات سيارات، مظلات مسابح، مظلات مواقف</strong> بأعلى جودة. كما نتميز في <strong>تنسيق الحدائق والعشب الصناعي</strong> الهولندي، <strong>بيوت الشعر الملكية</strong> بجلد PVC كوري، <strong>سواتر قماش وحديد وقص ليزر</strong>، <strong>برجولات حديد وخشب</strong>، <strong>مظلات لكسان</strong> شفافة، <strong>غرف ساندوتش بانل</strong>، <strong>ديكورات داخلية وخارجية</strong>، <strong>قرميد إسباني</strong> عازل، <strong>هناجر ومستودعات</strong>، و<strong>مشبات تراثية</strong>.</p>
   </div>
-</main>
-<!-- نهاية المحتوى الرئيسي -->
+  
+  <h2 class="section-title">أقسامنا</h2>
+  <div class="services-grid" id="services-grid"></div>
+</div>
+
+<!-- قسم الكلمات المفتاحية -->
+<div class="container">
+  <div class="seo-keywords" style="background:#ffffff; border-radius:12px; padding:20px 15px; margin:20px 0; border:2px solid #967969;">
+    <h3 style="color:#006054; font-size:1.3rem; margin-bottom:15px; text-align:center; border-bottom:2px solid #E67E22; padding-bottom:5px;">كلمات مفتاحية: خدمات الظل العربي</h3>
+    <div class="keywords-grid" style="display:grid; grid-template-columns:repeat(2,1fr); gap:10px;" id="keywords-grid"></div>
+  </div>
+</div>
 
 <!-- روابط عائمة مع aria-label -->
 <a href="tel:0540925626" class="float-btn phone" aria-label="اتصال هاتفي"><i class="fas fa-phone-alt"></i></a>
@@ -103,7 +447,7 @@
   <div class="designer">تصميم <span>سليمان الحكمي</span> 0551987351</div>
 </footer>
 
-<script defer>
+<script>
   // قائمة الخدمات مع الروابط الصحيحة
   const services = [
     { title: "غرف ساندوتش بانل", desc: "غرف جاهزة عازلة للحرارة والصوت، مثالية للمستودعات والملاحق العملية والمزارع.", img: "https://i.postimg.cc/Z5xLZK36/سندويج-بنل-9.jpg", link: "sandwich-panel.html" },
@@ -123,14 +467,10 @@
   services.forEach((s, index) => {
     const card = document.createElement('div');
     card.className = 'service-card';
-    // استخدام <picture> مع WebP
     card.innerHTML = `
       <a href="${s.link}">
         <div class="image-container">
-          <picture>
-            <source srcset="${s.img.replace(/\.(jpg|jpeg|png)$/i, '.webp')}" type="image/webp">
-            <img src="${s.img}" width="300" height="160" loading="lazy" alt="${s.title} - خدمة الظل العربي">
-          </picture>
+          <img src="${s.img}" loading="lazy" alt="${s.title} - خدمة الظل العربي">
         </div>
         <div class="card-content">
           <h3>${s.title}</h3>
@@ -193,6 +533,5 @@
     img.addEventListener('dragstart', (e) => e.preventDefault());
   });
 </script>
-<!-- تذكير: لتحقيق أقصى أداء، قم برفع نسخ WebP من جميع الصور (بما في ذلك صورة البطل) وأضف قواعد التخزين المؤقت في .htaccess -->
 </body>
 </html>
