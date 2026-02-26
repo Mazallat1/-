@@ -2,24 +2,47 @@
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>الظل العربي | مظلات وسواتر الأحساء - أفضل خدمات المظلات والسواتر في الهفوف والمبرز</title>
-  <!-- SEO محسن بالكلمات المفتاحية -->
-  <meta name="description" content="أفضل مظلات وسواتر في الأحساء: برجولات حديد وخشب، تنسيق حدائق، بيوت شعر ملكية، سواتر قماش وحديد، مظلات لكسان، ساندوتش بانل، مظلات سيارات، ديكورات، قرميد، هناجر، مشبات تراثية. خبرة 15 سنة في الهفوف والمبرز والعيون والجفر والمنيزلة.">
-  <meta name="keywords" content="مظلات الأحساء, سواتر الأحساء, برجولات, برجولات حديد, برجولات خشب, تنسيق حدائق, عشب صناعي, بيوت شعر, خيام ملكي, سواتر قماش, سواتر حديد, سواتر خشبية, مظلات لكسان, مظلات بولي كربونات, ساندوتش بانل, غرف جاهزة, مظلات سيارات, مظلات مسابح, مظلات مواقف, ديكورات داخلية, ديكورات خارجية, بديل الخشب, جبس بورد, قرميد, قرميد إسباني, هناجر, مستودعات, مشبات, مشبات رخام, مشبات تراثية, الهفوف, المبرز, العيون, الجفر, المنيزلة">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+  <meta name="theme-color" content="#006054">
+  <title>الظل العربي | مظلات وسواتر الأحساء</title>
+  <!-- SEO -->
+  <meta name="description" content="أفضل مظلات وسواتر في الأحساء - برجولات، حدائق، بيوت شعر، سواتر، مظلات لكسان، ساندوتش بانل، مظلات سيارات، ديكورات، قرميد، هناجر، مشبات.">
+  <meta name="keywords" content="مظلات الأحساء, سواتر الأحساء, برجولات">
   <meta name="author" content="الظل العربي للمظلات والسواتر">
   <!-- Open Graph -->
   <meta property="og:image" content="https://i.postimg.cc/W3DS9G0f/IMG-20260226-WA0019-copy-515x515.jpg">
   <meta property="og:image:width" content="515">
   <meta property="og:image:height" content="515">
   <meta property="og:title" content="الظل العربي - مظلات وسواتر الأحساء">
-  <meta property="og:description" content="خدمات متكاملة للمظلات والسواتر في الأحساء مع أكثر من 500 مشروع منفذ">
+  <meta property="og:description" content="خدمات متكاملة للمظلات والسواتر في الأحساء">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" type="image/png" href="https://i.postimg.cc/W3DS9G0f/IMG-20260226-WA0019-copy-515x515.jpg">
+  <link rel="apple-touch-icon" href="https://i.postimg.cc/W3DS9G0f/IMG-20260226-WA0019-copy-515x515.jpg">
+  
+  <!-- تحميل مسبق للصورة الرئيسية -->
   <link rel="preload" as="image" href="https://i.postimg.cc/NM7LvV8k/IMG-20260226-WA0018-copy-344x344.jpg" fetchpriority="high">
+  
+  <!-- Font Awesome مع تأجيل -->
   <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"></noscript>
+  
   <style>
+    /* ===== تعريف الخطوط ===== */
+    @font-face {
+      font-family: 'Font Awesome 6 Brands';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/webfonts/fa-brands-400.woff2) format('woff2');
+    }
+    @font-face {
+      font-family: 'Font Awesome 6 Free';
+      font-style: normal;
+      font-weight: 900;
+      font-display: swap;
+      src: url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/webfonts/fa-solid-900.woff2) format('woff2');
+    }
+    
     * {
       margin: 0;
       padding: 0;
@@ -32,6 +55,7 @@
       background: #f8f5f0;
     }
     
+    /* ===== ترويسة ===== */
     header {
       height: 12vh;
       min-height: 70px;
@@ -79,6 +103,7 @@
       color: #E67E22;
     }
     
+    /* ===== شريط تنقل ===== */
     nav {
       background: #006054;
       padding: 5px 0;
@@ -101,7 +126,9 @@
       background: #E67E22;
     }
     
+    /* ===== قسم البطل ===== */
     .hero {
+      position: relative;
       min-height: 30vh;
       display: flex;
       align-items: center;
@@ -110,36 +137,40 @@
       background-image: url('https://i.postimg.cc/NM7LvV8k/IMG-20260226-WA0018-copy-344x344.jpg');
       background-size: cover;
       background-position: center;
-      padding: 15px;
+      color: #ffffff;
+      padding: 20px;
     }
     .hero-content h2 {
-      font-size: clamp(1.5rem, 5vw, 2.5rem);
+      font-size: clamp(2rem, 5vw, 2.8rem);
+      margin-bottom: 10px;
+      text-shadow: 3px 3px 8px rgba(0,0,0,0.8);
       color: #ffffff;
-      text-shadow: 2px 2px 5px black;
-      margin-bottom: 5px;
     }
     .hero-content p {
-      font-size: clamp(0.9rem, 3vw, 1.2rem);
+      font-size: clamp(1rem, 3vw, 1.2rem);
       color: #ffffff;
-      text-shadow: 1px 1px 3px black;
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.8);
     }
     
+    /* ===== الحاوية ===== */
     .container {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 20px 10px;
       width: 100%;
-      padding: 15px 10px;
     }
     h2.section-title {
       text-align: center;
-      font-size: 1.5rem;
+      font-size: 1.8rem;
       color: #006054;
       border-bottom: 3px solid #E67E22;
       display: inline-block;
       padding-bottom: 5px;
-      margin-bottom: 15px;
+      margin-bottom: 20px;
       width: auto;
     }
     
-    /* ===== نص تعريف غني بالكلمات المفتاحية ===== */
+    /* ===== نص تعريف ===== */
     .seo-intro {
       background: #ffffff;
       border-radius: 12px;
@@ -157,6 +188,7 @@
       color: #E67E22;
     }
     
+    /* ===== شبكة الخدمات ===== */
     .services-grid {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
@@ -165,29 +197,61 @@
     @media (min-width: 768px) {
       .services-grid { grid-template-columns: repeat(3, 1fr); gap: 15px; }
     }
+    @media (min-width: 1024px) {
+      .services-grid { grid-template-columns: repeat(4, 1fr); gap: 15px; }
+    }
+    
     .service-card {
       background: #ffffff;
       border-radius: 12px;
       overflow: hidden;
       border: 1px solid #967969;
+      transition: 0.3s;
+    }
+    .service-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 25px rgba(230, 126, 34, 0.2);
+      border-color: #E67E22;
     }
     .service-card a {
       display: block;
       text-decoration: none;
       color: inherit;
+      height: 100%;
     }
     .image-container {
+      position: relative;
       width: 100%;
-      height: 140px;
+      height: 160px;
       overflow: hidden;
     }
     .image-container img {
       width: 100%;
       height: 100%;
       object-fit: cover;
+      transition: 0.5s;
+    }
+    .service-card:hover img {
+      transform: scale(1.05);
+    }
+    .image-container .overlay {
+      position: absolute;
+      top: 0; left: 0; width: 100%; height: 100%;
+      background: rgba(230, 126, 34, 0.2);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      transition: 0.3s;
+      color: #ffffff;
+      font-size: 0.9rem;
+      font-weight: bold;
+    }
+    .image-container:hover .overlay {
+      opacity: 1;
     }
     .card-content {
-      padding: 8px 6px;
+      padding: 10px 8px;
       text-align: center;
     }
     .card-content h3 {
@@ -209,9 +273,11 @@
       border-radius: 15px;
       font-size: 0.7rem;
       display: inline-block;
+      text-decoration: none;
       border: none;
     }
     
+    /* ===== بلوك متوازن ===== */
     .balance-card {
       background: linear-gradient(145deg, #006054, #0a7a6b);
       border-radius: 12px;
@@ -235,13 +301,11 @@
       font-size: 1.2rem;
       font-weight: 700;
       margin-bottom: 8px;
-      color: #ffffff;
     }
     .balance-card p {
       font-size: 0.85rem;
       line-height: 1.5;
       margin-bottom: 15px;
-      color: #f0f0f0;
     }
     .balance-card .btn-balance {
       background-color: #E67E22;
@@ -251,88 +315,15 @@
       text-decoration: none;
       font-weight: 600;
       font-size: 0.8rem;
-      border: 1px solid #967969;
     }
     .balance-card .btn-balance:hover {
       background-color: #006054;
-      border-color: #E67E22;
     }
     
-    .payment-methods-section {
-      background: #ffffff;
-      border-radius: 12px;
-      padding: 12px 10px;
-      margin: 10px 0;
-      border: 2px solid #967969;
-      text-align: center;
-    }
-    .payment-title { 
-      font-size: 1.2rem;
-      color: #006054; 
-      margin-bottom: 8px; 
-    }
-    .payment-logos {
-      display: flex; 
-      justify-content: center; 
-      gap: 8px;
-    }
-    .payment-logo-img {
-      height: 30px;
-      width: auto; 
-      background: white; 
-      border-radius: 15px;
-      padding: 4px 10px; 
-      border: 1px solid #967969; 
-    }
-    
-    /* ===== قسم الكلمات المفتاحية المنظم (250 كلمة) ===== */
-    .seo-keywords {
-      background: #ffffff;
-      border-radius: 12px;
-      padding: 20px 15px;
-      margin: 20px 0;
-      border: 2px solid #967969;
-    }
-    .seo-keywords h3 {
-      color: #006054;
-      font-size: 1.3rem;
-      margin-bottom: 15px;
-      text-align: center;
-      border-bottom: 2px solid #E67E22;
-      padding-bottom: 5px;
-    }
-    .keywords-grid {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 12px;
-    }
-    @media (min-width: 640px) {
-      .keywords-grid { grid-template-columns: repeat(3, 1fr); }
-    }
-    @media (min-width: 1024px) {
-      .keywords-grid { grid-template-columns: repeat(4, 1fr); }
-    }
-    .keyword-item {
-      background: #f8f5f0;
-      border-radius: 8px;
-      padding: 8px 10px;
-      border-right: 3px solid #E67E22;
-    }
-    .keyword-item strong {
-      color: #006054;
-      font-size: 0.85rem;
-      display: block;
-      margin-bottom: 3px;
-    }
-    .keyword-item p {
-      color: #2c3e2f;
-      font-size: 0.7rem;
-      line-height: 1.3;
-    }
-    
+    /* ===== أزرار عائمة ===== */
     .float-btn {
       position: fixed; 
-      bottom: 10px; 
+      bottom: 15px; 
       width: 45px; height: 45px;
       border-radius: 50%;
       color: #fff; 
@@ -346,39 +337,49 @@
     .float-btn.whatsapp { left: 10px; background-color: #25d366; }
     .float-btn.phone { right: 10px; background-color: #006054; }
     
+    /* ===== تذييل ===== */
     footer {
       background: #006054;
       color: #ffffff;
       text-align: center;
-      padding: 12px 8px;
-      margin-top: 15px;
+      padding: 15px 10px;
+      margin-top: 20px;
       border-top: 3px solid #E67E22;
       font-size: 0.75rem;
     }
     .social-links {
       display: flex; 
       justify-content: center; 
-      gap: 12px; 
-      margin: 8px 0;
+      gap: 15px; 
+      margin: 10px 0;
     }
     .social-links a {
       color: #E67E22; 
-      font-size: 1.2rem; 
+      font-size: 1.3rem; 
+      text-decoration: none;
     }
-    .designer { font-size: 0.65rem; color: #ccc; }
-    .designer span { color: #E67E22; }
+    .social-links a:hover {
+      color: #ffffff;
+    }
+    .designer { 
+      margin-top: 8px; 
+      font-size: 0.65rem; 
+      color: #ccc; 
+    }
+    .designer span { 
+      color: #E67E22; 
+    }
     
     @media (max-width: 480px) {
       .header-stats span:first-child { display: none; }
-      .image-container { height: 120px; }
-      .balance-card { min-height: 280px; }
+      .image-container { height: 140px; }
     }
   </style>
 </head>
 <body>
 <header>
   <div class="logo">
-    <img src="https://i.postimg.cc/W3DS9G0f/IMG-20260226-WA0019-copy-515x515.jpg" width="140" height="140">
+    <img src="https://i.postimg.cc/W3DS9G0f/IMG-20260226-WA0019-copy-515x515.jpg" width="140" height="140" alt="شعار الظل العربي">
   </div>
   <div class="header-title">
     <h1>الظل العربي</h1>
@@ -389,21 +390,23 @@
     <span><i class="fas fa-star"></i> 15 سنة</span>
   </div>
 </header>
+
 <nav>
   <a href="index.html">الرئيسية</a>
-  <a href="#">برجولات</a>
-  <a href="#">حدائق</a>
-  <a href="#">بيوت شعر</a>
-  <a href="#">سواتر</a>
-  <a href="#">لكسان</a>
-  <a href="#">ساندوتش</a>
-  <a href="#">مظلات سيارات</a>
-  <a href="#">ديكورات</a>
-  <a href="#">قرميد</a>
-  <a href="#">هناجر</a>
-  <a href="#">مشبات</a>
+  <a href="berjolat.html">برجولات</a>
+  <a href="hadayeq.html">حدائق</a>
+  <a href="khayam.html">بيوت شعر</a>
+  <a href="sawater.html">سواتر</a>
+  <a href="mazlat-lksan.html">لكسان</a>
+  <a href="sandwich-panel.html">ساندوتش</a>
+  <a href="mazlat-sayarat.html">مظلات سيارات</a>
+  <a href="decor.html">ديكورات</a>
+  <a href="qarmid.html">قرميد</a>
+  <a href="hangar.html">هناجر</a>
+  <a href="mashabat.html">مشبات</a>
 </nav>
 
+<!-- قسم البطل -->
 <section class="hero">
   <div class="hero-content">
     <h2>الظل العربي</h2>
@@ -412,36 +415,25 @@
 </section>
 
 <div class="container">
-  <div class="payment-methods-section">
-    <h3 class="payment-title">وسائل الدفع</h3>
-    <div class="payment-logos">
-      <img class="payment-logo-img" src="https://i.postimg.cc/wvNf9BMb/384578.jpg" alt="Tabby">
-      <img class="payment-logo-img" src="https://i.postimg.cc/jSChsjkw/image.jpg" alt="Tamara">
-    </div>
-  </div>
-</div>
-
-<div class="container">
-  <h2 class="section-title">خدماتنا في الأحساء</h2>
-  
-  <!-- نص تمهيدي غني بالكلمات المفتاحية -->
+  <!-- نص تعريف -->
   <div class="seo-intro">
-    <p><strong>الظل العربي</strong> أفضل شركة <strong>مظلات وسواتر في الأحساء</strong> تقدم خدمات متكاملة في <strong>الهفوف، المبرز، العيون، الجفر، والمنيزلة</strong> بخبرة 15 سنة. نوفر <strong>مظلات سيارات، مظلات مسابح، مظلات مواقف، مظلات مدارس</strong> بأعلى جودة. كما نتميز في <strong>تنسيق الحدائق والعشب الصناعي</strong> الهولندي، <strong>بيوت الشعر الملكية</strong> بجلد PVC كوري عازل، <strong>سواتر قماش وحديد وقص ليزر</strong>، <strong>برجولات حديد وخشب</strong> للجلسات الخارجية، <strong>مظلات لكسان</strong> شفافة وملونة، <strong>غرف ساندوتش بانل</strong> للمستودعات، <strong>ديكورات داخلية وخارجية</strong> بديل الخشب والجبس، <strong>قرميد إسباني</strong> عازل حراري، <strong>هناجر ومستودعات</strong> صناعية، و<strong>مشبات تراثية</strong> رخام وطوب أحمر. جميع أعمالنا بضمانات تصل لـ15 سنة وأكثر من 500 مشروع منفذ.</p>
+    <p><strong>الظل العربي</strong> أفضل شركة <strong>مظلات وسواتر في الأحساء</strong> تقدم خدمات متكاملة في <strong>الهفوف، المبرز، العيون، الجفر، والمنيزلة</strong> بخبرة 15 سنة. نوفر <strong>مظلات سيارات، مظلات مسابح، مظلات مواقف</strong> بأعلى جودة. كما نتميز في <strong>تنسيق الحدائق والعشب الصناعي</strong> الهولندي، <strong>بيوت الشعر الملكية</strong> بجلد PVC كوري، <strong>سواتر قماش وحديد وقص ليزر</strong>، <strong>برجولات حديد وخشب</strong>، <strong>مظلات لكسان</strong> شفافة، <strong>غرف ساندوتش بانل</strong>، <strong>ديكورات داخلية وخارجية</strong>، <strong>قرميد إسباني</strong> عازل، <strong>هناجر ومستودعات</strong>، و<strong>مشبات تراثية</strong>.</p>
   </div>
   
+  <h2 class="section-title">أقسامنا</h2>
   <div class="services-grid" id="services-grid"></div>
 </div>
 
-<!-- قسم الكلمات المفتاحية المنظم (250 كلمة) -->
+<!-- قسم الكلمات المفتاحية -->
 <div class="container">
-  <div class="seo-keywords">
-    <h3>كلمات مفتاحية: خدمات الظل العربي في الأحساء</h3>
-    <div class="keywords-grid" id="keywords-grid"></div>
+  <div class="seo-keywords" style="background:#ffffff; border-radius:12px; padding:20px 15px; margin:20px 0; border:2px solid #967969;">
+    <h3 style="color:#006054; font-size:1.3rem; margin-bottom:15px; text-align:center; border-bottom:2px solid #E67E22; padding-bottom:5px;">كلمات مفتاحية: خدمات الظل العربي</h3>
+    <div class="keywords-grid" style="display:grid; grid-template-columns:repeat(2,1fr); gap:10px;" id="keywords-grid"></div>
   </div>
 </div>
 
 <a href="tel:0540925626" class="float-btn phone"><i class="fas fa-phone-alt"></i></a>
-<a href="https://wa.me/966540925626" class="float-btn whatsapp"><i class="fab fa-whatsapp"></i></a>
+<a href="https://wa.me/966540925626?text=السلام%20عليكم%20أريد%20استفسارًا%20عن%20خدماتكم" class="float-btn whatsapp"><i class="fab fa-whatsapp"></i></a>
 
 <footer>
   <p>الظل العربي © 2026 الأحساء</p>
@@ -454,85 +446,19 @@
 </footer>
 
 <script>
-  // خدمات مع نصوص موسعة تحتوي على كلمات مفتاحية
+  // قائمة الخدمات مع الروابط الصحيحة
   const services = [
-    { 
-      title: "غرف ساندوتش بانل", 
-      desc: "غرف جاهزة عازلة للحرارة والصوت. مثالية للمستودعات، الملاحق العمالية، والمزارع. نقدم غرف ساندوتش بانل للأحواش والاستراحات بمواصفات ألمانية.", 
-      img: "https://i.postimg.cc/Z5xLZK36/سندويج-بنل-9.jpg", 
-      link: "#",
-      keywords: "ساندوتش بانل, غرف جاهزة, مستودعات الأحساء, ملاحق خارجية, عزل حراري"
-    },
-    { 
-      title: "مظلات سيارات 2026", 
-      desc: "مظلات هرمية ومخروطية بأغطية جلد PVC أو قماش كوري. مقاومة للحرارة والعوامل الجوية. مظلات سيارات للفلل والقصور والمساجد.", 
-      img: "https://i.postimg.cc/tCTbFYR6/IMG-20260225-052725.jpg", 
-      link: "#",
-      keywords: "مظلات سيارات, مظلات مسابح, مظلات مواقف, مظلات هرمية, مظلات مخروطية"
-    },
-    { 
-      title: "قرميد - أسقف قرميدية", 
-      desc: "قرميد إسباني وطني عازل حراري ممتاز. متوفر بألوان متعددة للفلل والقصور والأحواش. نوفر تركيب قرميد مع ضمان 15 سنة.", 
-      img: "https://i.postimg.cc/133Qc497/IMG-20161124-WA0045-edit-81054822243973.jpg", 
-      link: "#",
-      keywords: "قرميد, أسقف قرميدية, قرميد إسباني, عزل حراري, قرميد للفلل"
-    },
-    { 
-      title: "خيام وبيوت شعر", 
-      desc: "بيوت شعر ملكية فاخرة بجلد PVC كوري عازل للحرارة والماء. مع زخارف داخلية سدو وديكورات تراثية. خيام مجالس عربية فخمة.", 
-      img: "https://i.postimg.cc/JzzLct12/IMG-20191218-WA0044-edit-81091632936199.jpg", 
-      link: "#",
-      keywords: "بيوت شعر, خيام ملكي, خيام مجالس, بيوت شعر تراثية, سدو فاخر"
-    },
-    { 
-      title: "سواتر حديد - خشب - قماش", 
-      desc: "سواتر شرائح حديد بقص ليزر بتصاميم عصرية. سواتر خشبية طبيعية للفلل، وسواتر قماشية متحركة للجلسات. أعلى خصوصية وأمان.", 
-      img: "https://i.postimg.cc/YCCHfjpy/RIFR1408-edit-81117632870147.jpg", 
-      link: "#",
-      keywords: "سواتر قماش, سواتر خشبية, سواتر حديد, سواتر قص ليزر, سواتر مودرن"
-    },
-    { 
-      title: "مظلات لكسان", 
-      desc: "مظلات بولي كربونات شفافة وملونة للمداخل والمواقف والأحواش. مقاومة للكسر وعازلة للأشعة فوق البنفسجية. تسمح بنفاذ الضوء.", 
-      img: "https://i.postimg.cc/BbNq4FSW/mzlat-lksan-mzlt-fy-alsth-1024x768-edit-82062187898016.jpg", 
-      link: "#",
-      keywords: "مظلات لكسان, مظلات بولي كربونات, مظلات مداخل, مظلات أحواش, مظلات شفافة"
-    },
-    { 
-      title: "مشبات تراثية", 
-      desc: "مشبات رخام وطوب أحمر وزجاج بتصاميم تراثية وعصرية. تدفئة مثالية مع لمسة جمالية للمجالس. مشبات حجر نجدية فخمة.", 
-      img: "https://i.postimg.cc/VS73Trx8/2f653c92dfcb91f2631bd65c8f8a06d5-150x112.jpg", 
-      link: "#",
-      keywords: "مشبات, مشبات تراثية, مشبات رخام, مشبات طوب أحمر, مدافئ تراثية"
-    },
-    { 
-      title: "برجولات حديد وخشب", 
-      desc: "برجولات بهيكل حديدي مجلفن مقاوم للصدأ وأسقف خشب طبيعي. مثالية للجلسات الخارجية والحدائق والمطاعم. إضاءة ليد اختيارية.", 
-      img: "https://i.postimg.cc/CxxgHdF2/ACTE2962-1-edit-80903629951635.jpg", 
-      link: "#",
-      keywords: "برجولات حديد, برجولات خشب, برجولات مودرن, جلسات خارجية, مظلات حدائق"
-    },
-    { 
-      title: "تنسيق حدائق", 
-      desc: "تصميم حدائق منزلية وفيلات بعشب صناعي هولندي درجة أولى. نوافير وشلالات صناعية وإضاءات ليد. أشكال جذابة وأسعار منافسة.", 
-      img: "https://i.postimg.cc/jjJdPCXg/images-edit-82084798892122.jpg", 
-      link: "#",
-      keywords: "تنسيق حدائق, عشب صناعي, تصميم حدائق, نوافير, شلالات, لاندسكيب"
-    },
-    { 
-      title: "ديكورات داخلية", 
-      desc: "ديكورات جبس بورد وأسقف معلقة. بديل الخشب للجدران والمجالس. صبغ بروفايل خارجي وداخلي بألوان عصرية. سمنت بورد مقاوم للرطوبة.", 
-      img: "https://i.postimg.cc/qtm9Yh99/5409136556695555519-120.jpg", 
-      link: "#",
-      keywords: "ديكورات داخلية, بديل الخشب, جبس بورد, صبغ بروفايل, سمنت بورد"
-    },
-    { 
-      title: "هناجر ومستودعات", 
-      desc: "هياكل حديدية ضخمة للمصانع والمستودعات. تغطية بشينكو أو ساندوتش بانل. تصميم هندسي حسب الطلب مع عزل حراري ممتاز.", 
-      img: "https://i.postimg.cc/zB6CpLZ3/67-768x491-edit-81658379988222.png", 
-      link: "#",
-      keywords: "هناجر, مستودعات, هناجر حديد, شينكو, مستودعات صناعية"
-    }
+    { title: "غرف ساندوتش بانل", desc: "غرف جاهزة عازلة للحرارة والصوت، مثالية للمستودعات والملاحق العملية والمزارع.", img: "https://i.postimg.cc/Z5xLZK36/سندويج-بنل-9.jpg", link: "sandwich-panel.html" },
+    { title: "مظلات سيارات 2026", desc: "مظلات هرمية ومخروطية بأغطية جلد PVC أو قماش كوري. مقاومة للحرارة.", img: "https://i.postimg.cc/tCTbFYR6/IMG-20260225-052725.jpg", link: "mazlat-sayarat.html" },
+    { title: "قرميد - أسقف قرميدية", desc: "قرميد إسباني وطين عازل حراري ممتاز، متوفر بألوان متعددة للفلل والقصور.", img: "https://i.postimg.cc/133Qc497/IMG-20161124-WA0045-edit-81054822243973.jpg", link: "qarmid.html" },
+    { title: "خيام وبيوت شعر", desc: "بيوت شعر فاخرة بجلد PVC كوري عازل مع زخارف داخلية (سدو) فاخرة.", img: "https://i.postimg.cc/JzzLct12/IMG-20191218-WA0044-edit-81091632936199.jpg", link: "khayam.html" },
+    { title: "سواتر حديد - خشب - قماش", desc: "سواتر شرائح حديد بقص ليزر، سواتر خشبية طبيعية، وسواتر قماشية متحركة.", img: "https://i.postimg.cc/YCCHfjpy/RIFR1408-edit-81117632870147.jpg", link: "sawater.html" },
+    { title: "مظلات لكسان", desc: "ألواح بولي كربونات شفافة وملونة مقاومة للكسر، عازل حراري 99%.", img: "https://i.postimg.cc/BbNq4FSW/mzlat-lksan-mzlt-fy-alsth-1024x768-edit-82062187898016.jpg", link: "mazlat-lksan.html" },
+    { title: "مشبات تراثية", desc: "مشبات رخام وطوب أحمر بتصاميم تراثية وعصرية، تدفئة مثالية.", img: "https://i.postimg.cc/VS73Trx8/2f653c92dfcb91f2631bd65c8f8a06d5-150x112.jpg", link: "mashabat.html" },
+    { title: "برجولات حديد وخشب", desc: "برجولات بهيكل حديدي مجلفن وأسقف خشب طبيعي، مقاومة للحرارة والرطوبة.", img: "https://i.postimg.cc/CxxgHdF2/ACTE2962-1-edit-80903629951635.jpg", link: "berjolat.html" },
+    { title: "تنسيق حدائق", desc: "تصميم حدائق بعشب صناعي هولندي درجة أولى، نوافير وشلالات وإضاءات ليد.", img: "https://i.postimg.cc/jjJdPCXg/images-edit-82084798892122.jpg", link: "hadayeq.html" },
+    { title: "ديكورات داخلية", desc: "بديل الخشب، جبس بورد، سمنت بورد، وصبغ بروفايل بأحدث التصاميم.", img: "https://i.postimg.cc/qtm9Yh99/5409136556695555519-120.jpg", link: "decor.html" },
+    { title: "هناجر ومستودعات", desc: "هياكل حديدية ضخمة للمصانع والمستودعات، تغطية بشينكو أو ساندوتش بانل.", img: "https://i.postimg.cc/zB6CpLZ3/67-768x491-edit-81658379988222.png", link: "hangar.html" }
   ];
 
   const grid = document.getElementById('services-grid');
@@ -567,34 +493,40 @@
     }
   });
 
-  // إنشاء قسم الكلمات المفتاحية (أكثر من 250 كلمة)
+  // بيانات الكلمات المفتاحية
   const keywordsData = [
-    { title: "مظلات", desc: "مظلات سيارات, مظلات مسابح, مظلات مواقف, مظلات مدارس, مظلات هرمية, مظلات مخروطية" },
-    { title: "سواتر", desc: "سواتر قماش, سواتر خشبية, سواتر حديد, سواتر قص ليزر, سواتر شرائح, سواتر مودرن" },
-    { title: "برجولات", desc: "برجولات حديد, برجولات خشب, برجولات مودرن, برجولات للحدائق, برجولات جلسات" },
-    { title: "حدائق", desc: "تنسيق حدائق, عشب صناعي, نوافير, شلالات, إضاءات ليد, لاندسكيب" },
-    { title: "بيوت شعر", desc: "بيوت شعر ملكية, خيام مجالس, سدو فاخر, جلد PVC كوري, مشبات تراثية" },
-    { title: "لكسان", desc: "مظلات لكسان, بولي كربونات, مظلات مداخل, مظلات أحواش, مظلات شفافة" },
-    { title: "ساندوتش بانل", desc: "غرف ساندوتش بنل, غرف جاهزة, مستودعات, ملاحق, عزل حراري" },
-    { title: "ديكورات", desc: "ديكورات داخلية, جبس بورد, بديل الخشب, صبغ بروفايل, سمنت بورد" },
-    { title: "قرميد", desc: "قرميد إسباني, أسقف قرميدية, قرميد للفلل, عزل حراري, قرميد ملون" },
-    { title: "هناجر", desc: "هناجر مستودعات, هياكل حديدية, شينكو, مستودعات تخزين, هناجر صناعية" },
-    { title: "مشبات", desc: "مشبات تراثية, مشبات رخام, مشبات طوب أحمر, مدافئ حجرية, تدفئة مجالس" },
-    { title: "مناطق", desc: "الهفوف, المبرز, العيون, الجفر, المنيزلة, الأحساء, الرياض" }
+    { title: "مظلات", desc: "مظلات سيارات, مظلات مسابح, مظلات مواقف, مظلات هرمية, مظلات مخروطية" },
+    { title: "سواتر", desc: "سواتر قماش, سواتر خشبية, سواتر حديد, سواتر قص ليزر, سواتر شرائح" },
+    { title: "برجولات", desc: "برجولات حديد, برجولات خشب, برجولات مودرن, برجولات للحدائق" },
+    { title: "حدائق", desc: "تنسيق حدائق, عشب صناعي, نوافير, شلالات, إضاءات ليد" },
+    { title: "بيوت شعر", desc: "بيوت شعر ملكية, خيام مجالس, سدو فاخر, جلد PVC كوري" },
+    { title: "لكسان", desc: "مظلات لكسان, بولي كربونات, مظلات مداخل, مظلات أحواش" },
+    { title: "ساندوتش بانل", desc: "غرف ساندوتش بنل, غرف جاهزة, مستودعات, ملاحق" },
+    { title: "ديكورات", desc: "ديكورات داخلية, جبس بورد, بديل الخشب, صبغ بروفايل" },
+    { title: "قرميد", desc: "قرميد إسباني, أسقف قرميدية, قرميد للفلل, عزل حراري" },
+    { title: "هناجر", desc: "هناجر مستودعات, هياكل حديدية, شينكو, مستودعات تخزين" },
+    { title: "مشبات", desc: "مشبات تراثية, مشبات رخام, مشبات طوب أحمر, مدافئ حجرية" },
+    { title: "مناطق", desc: "الهفوف, المبرز, العيون, الجفر, المنيزلة, الأحساء" }
   ];
 
   const keywordsGrid = document.getElementById('keywords-grid');
-  keywordsData.forEach(k => {
-    const item = document.createElement('div');
-    item.className = 'keyword-item';
-    item.innerHTML = `<strong>${k.title}</strong><p>${k.desc}</p>`;
-    keywordsGrid.appendChild(item);
-  });
+  if(keywordsGrid) {
+    keywordsData.forEach(k => {
+      const item = document.createElement('div');
+      item.className = 'keyword-item';
+      item.style.background = '#f8f5f0';
+      item.style.borderRadius = '8px';
+      item.style.padding = '8px';
+      item.style.borderRight = '3px solid #E67E22';
+      item.innerHTML = `<strong style="color:#006054; display:block; margin-bottom:3px;">${k.title}</strong><p style="color:#2c3e2f; font-size:0.7rem;">${k.desc}</p>`;
+      keywordsGrid.appendChild(item);
+    });
+  }
 
   // حماية الصور
   document.querySelectorAll('img').forEach(img => {
-    img.addEventListener('contextmenu', e => e.preventDefault());
-    img.addEventListener('dragstart', e => e.preventDefault());
+    img.addEventListener('contextmenu', (e) => e.preventDefault());
+    img.addEventListener('dragstart', (e) => e.preventDefault());
   });
 </script>
 </body>
