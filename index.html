@@ -92,7 +92,7 @@
       display: flex;
       gap: 5px;
       font-size: 0.7rem;
-      background: rgba(255,255,255,0.1);
+      background: rgba(0, 0, 0, 0.3); /* أغمق قليلاً لتحسين التباين */
       padding: 4px 8px;
       border-radius: 20px;
       border: 1px solid #967969;
@@ -144,13 +144,13 @@
     .hero-content h2 {
       font-size: clamp(2rem, 5vw, 2.8rem);
       margin-bottom: 10px;
-      text-shadow: 3px 3px 8px rgba(0,0,0,0.8);
+      text-shadow: 3px 3px 12px rgba(0,0,0,0.9); /* زيادة التباين */
       color: #ffffff;
     }
     .hero-content p {
       font-size: clamp(1rem, 3vw, 1.2rem);
       color: #ffffff;
-      text-shadow: 2px 2px 6px rgba(0,0,0,0.8);
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.9); /* زيادة التباين */
     }
     
     /* ===== الحاوية ===== */
@@ -181,7 +181,7 @@
       text-align: center;
     }
     .seo-intro p {
-      color: #2c3e2f;
+      color: #1a2a1a; /* أغمق قليلاً لتحسين التباين */
       font-size: 0.9rem;
       line-height: 1.6;
     }
@@ -262,7 +262,7 @@
       margin-bottom: 4px;
     }
     .card-content p {
-      color: #2c3e2f;
+      color: #1a2a1a; /* أغمق لتحسين التباين */
       font-size: 0.75rem;
       line-height: 1.3;
       margin-bottom: 6px;
@@ -433,15 +433,16 @@
   </div>
 </div>
 
-<a href="tel:0540925626" class="float-btn phone"><i class="fas fa-phone-alt"></i></a>
-<a href="https://wa.me/966540925626?text=السلام%20عليكم%20أريد%20استفسارًا%20عن%20خدماتكم" class="float-btn whatsapp"><i class="fab fa-whatsapp"></i></a>
+<!-- روابط عائمة مع aria-label -->
+<a href="tel:0540925626" class="float-btn phone" aria-label="اتصال هاتفي"><i class="fas fa-phone-alt"></i></a>
+<a href="https://wa.me/966540925626?text=السلام%20عليكم%20أريد%20استفسارًا%20عن%20خدماتكم" class="float-btn whatsapp" aria-label="واتساب"><i class="fab fa-whatsapp"></i></a>
 
 <footer>
   <p>الظل العربي © 2026 الأحساء</p>
   <p>الهفوف - المبرز - العيون - الجفر - المنيزلة</p>
   <div class="social-links">
-    <a href="https://www.instagram.com/aboman4050" target="_blank"><i class="fab fa-instagram"></i></a>
-    <a href="https://www.tiktok.com/@khyamiee" target="_blank"><i class="fab fa-tiktok"></i></a>
+    <a href="https://www.instagram.com/aboman4050" target="_blank" aria-label="إنستغرام"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.tiktok.com/@khyamiee" target="_blank" aria-label="تيك توك"><i class="fab fa-tiktok"></i></a>
   </div>
   <div class="designer">تصميم <span>سليمان الحكمي</span> 0551987351</div>
 </footer>
@@ -468,7 +469,9 @@
     card.className = 'service-card';
     card.innerHTML = `
       <a href="${s.link}">
-        <div class="image-container"><img src="${s.img}" loading="lazy"></div>
+        <div class="image-container">
+          <img src="${s.img}" loading="lazy" alt="${s.title} - خدمة الظل العربي">
+        </div>
         <div class="card-content">
           <h3>${s.title}</h3>
           <p>${s.desc}</p>
@@ -487,7 +490,7 @@
           <i class="fas fa-star"></i>
           <h3>عروض خاصة 2026</h3>
           <p>استشيرنا الآن لأفضل العروض على جميع المنتجات. خصومات للمشاريع الكبرى في الهفوف والمبرز والعيون والجفر والمنيزلة.</p>
-          <a href="tel:0540925626" class="btn-balance"><i class="fas fa-phone-alt"></i> اتصل الآن</a>
+          <a href="tel:0540925626" class="btn-balance" aria-label="اتصال هاتفي للعروض"><i class="fas fa-phone-alt"></i> اتصل الآن</a>
         </div>
       `;
       grid.appendChild(balanceCard);
@@ -519,7 +522,7 @@
       item.style.borderRadius = '8px';
       item.style.padding = '8px';
       item.style.borderRight = '3px solid #E67E22';
-      item.innerHTML = `<strong style="color:#006054; display:block; margin-bottom:3px;">${k.title}</strong><p style="color:#2c3e2f; font-size:0.7rem;">${k.desc}</p>`;
+      item.innerHTML = `<strong style="color:#006054; display:block; margin-bottom:3px;">${k.title}</strong><p style="color:#1a2a1a; font-size:0.7rem;">${k.desc}</p>`;
       keywordsGrid.appendChild(item);
     });
   }
