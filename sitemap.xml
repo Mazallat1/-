@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- الصفحة الرئيسية -->
+  <url>
+    <loc>https://yourdomain.com/index.html</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- صفحة برجولات -->
+  <url>
+    <loc>https://yourdomain.com/berjolat.html</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- صفحة تنسيق حدائق -->
+  <url>
+    <loc>https://yourdomain.com/hadayeq.html</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- صفحة خيام وبيوت شعر -->
+  <url>
+    <loc>https://yourdomain.com/khayam.html</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- صفحة سواتر -->
+  <url>
+    <loc>https://yourdomain.com/sawater.html</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- صفحة مظلات لكسان -->
+  <url>
+    <loc>https://yourdomain.com/mazlat-lksan.html</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- صفحة غرف ساندوتش بنل -->
+  <url>
+    <loc>https://yourdomain.com/sandwich-panel.html</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- صفحة مظلات سيارات -->
+  <url>
+    <loc>https://yourdomain.com/mazlat-sayarat.html</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- صفحة ديكورات -->
+  <url>
+    <loc>https://yourdomain.com/decor.html</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- صفحة قرميد -->
+  <url>
+    <loc>https://yourdomain.com/qarmid.html</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- صفحة هناجر ومستودعات -->
+  <url>
+    <loc>https://yourdomain.com/hangar.html</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- صفحة مشبات تراثية -->
+  <url>
+    <loc>https://yourdomain.com/mashabat.html</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+</urlset>
