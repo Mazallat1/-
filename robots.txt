@@ -1,12 +1,5 @@
 # robots.txt لموقع الظل العربي
-
-# السماح لجميع محركات البحث بزيارة جميع الصفحات
 User-agent: *
 Allow: /
 
-# تحديد موقع خريطة الموقع
-Sitemap: https://yourdomain.com/sitemap.xml
-
-# منع الوصول إلى مجلدات معينة (إذا وجدت)
-# Disallow: /admin/
-# Disallow: /private/
+Sitemap: https://mazallat1.github.io/-/sitemap.xml
