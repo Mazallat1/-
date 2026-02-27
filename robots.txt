@@ -1,4 +1,3 @@
-# robots.txt لموقع الظل العربي
 User-agent: *
 Allow: /
 
