@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
-    <title>الظل العربي | برجولات حديد وخشب مودرن - أكثر من 80 تصميم حصري 2026</title>
+    <title>خيام - مظلات - سواتر - الأحساء | برجولات حديد وخشب مودرن - أكثر من 80 تصميم حصري 2026</title>
     <!-- SEO محسن -->
     <meta name="description" content="أكبر مجموعة برجولات حديد وخشب مودرن في الأحساء. أكثر من 80 تصميم حصري للجلسات الخارجية والحدائق والمداخل. تصاميم عصرية بجودة عالية في الهفوف والمبرز والعيون.">
     <meta name="keywords" content="برجولات حديد, برجولات خشب, برجولات مودرن, برجولات الأحساء, جلسات خارجية, مظلات حدائق, برجولات خشبية حديدية, تصميم برجولات, برجولات الهفوف, برجولات المبرز">
-    <meta name="author" content="الظل العربي للمظلات والسواتر">
+    <meta name="author" content="خيام - مظلات - سواتر - الأحساء">
     <!-- Open Graph -->
     <meta property="og:image" content="https://i.postimg.cc/W3DS9G0f/IMG-20260226-WA0019-copy-515x515.jpg">
     <meta property="og:image:width" content="515">
     <meta property="og:image:height" content="515">
-    <meta property="og:title" content="الظل العربي - برجولات حديد وخشب مودرن">
+    <meta property="og:title" content="خيام - مظلات - سواتر - الأحساء | برجولات حديد وخشب مودرن">
     <meta property="og:description" content="تصاميم برجولات عصرية للجلسات الخارجية في الأحساء بجودة عالية">
     <meta name="twitter:card" content="summary_large_image">
     <link rel="icon" type="image/png" href="https://i.postimg.cc/W3DS9G0f/IMG-20260226-WA0019-copy-515x515.jpg">
@@ -308,6 +308,99 @@
             line-height: 1.3;
         }
         
+        /* ===== قسم المقالات الجديد (بدون صور) ===== */
+        .articles-section {
+            margin-top: 40px;
+            padding: 30px 15px;
+            background: #fff;
+            border-radius: 30px 30px 0 0;
+            box-shadow: 0 -10px 30px rgba(0,0,0,0.05);
+        }
+        .articles-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 25px;
+            margin-top: 30px;
+        }
+        @media (min-width: 640px) {
+            .articles-grid { grid-template-columns: repeat(2, 1fr); }
+        }
+        @media (min-width: 1024px) {
+            .articles-grid { grid-template-columns: repeat(4, 1fr); }
+        }
+        .article-card {
+            background: #f8f5f0;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            transition: 0.3s;
+            border: 1px solid #e2e8f0;
+            display: flex;
+            flex-direction: column;
+        }
+        .article-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(230,126,34,0.15);
+            border-color: #E67E22;
+        }
+        .article-icon {
+            background: #006054;
+            color: #E67E22;
+            font-size: 2.5rem;
+            text-align: center;
+            padding: 20px 0;
+            border-bottom: 3px solid #E67E22;
+        }
+        .article-content {
+            padding: 20px 15px;
+        }
+        .article-title {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: #006054;
+            margin-bottom: 10px;
+            line-height: 1.4;
+        }
+        .article-title a {
+            color: #006054;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+        .article-title a:hover {
+            color: #E67E22;
+        }
+        .article-meta {
+            display: flex;
+            gap: 15px;
+            font-size: 0.8rem;
+            color: #967969;
+            margin-bottom: 10px;
+        }
+        .article-meta i {
+            color: #E67E22;
+            margin-left: 5px;
+        }
+        .article-excerpt {
+            font-size: 0.9rem;
+            color: #2c3e2f;
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+        .read-more {
+            display: inline-block;
+            background: #E67E22;
+            color: #fff;
+            padding: 5px 15px;
+            border-radius: 30px;
+            font-size: 0.8rem;
+            font-weight: bold;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+        .read-more:hover {
+            background: #006054;
+        }
+        
         /* ===== أزرار عائمة ===== */
         .float-btn {
             position: fixed; 
@@ -334,6 +427,30 @@
             margin-top: 20px;
             border-top: 3px solid #E67E22;
             font-size: 0.75rem;
+        }
+        /* روابط سريعة في التذييل */
+        .quick-links {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin: 20px 0;
+            padding: 10px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 40px;
+        }
+        .quick-links a {
+            color: #E67E22;
+            text-decoration: none;
+            font-size: 0.8rem;
+            padding: 5px 10px;
+            border-radius: 20px;
+            background: rgba(230,126,34,0.1);
+            transition: 0.3s;
+        }
+        .quick-links a:hover {
+            background: #E67E22;
+            color: #006054;
         }
         .social-links {
             display: flex; 
@@ -370,8 +487,8 @@
         <img src="https://i.postimg.cc/W3DS9G0f/IMG-20260226-WA0019-copy-515x515.jpg" width="140" height="140">
     </div>
     <div class="header-title">
-        <h1>الظل العربي</h1>
-        <p>مظلات وسواتر الأحساء</p>
+        <h1>خيام - مظلات - سواتر</h1>
+        <p>الأحساء - خبرة وجودة</p>
     </div>
     <div class="header-stats">
         <span><i class="fas fa-check-circle"></i> 500+</span>
@@ -381,17 +498,17 @@
 
 <nav>
     <a href="index.html">الرئيسية</a>
-    <a href="#">برجولات</a>
-    <a href="#">حدائق</a>
-    <a href="#">بيوت شعر</a>
-    <a href="#">سواتر</a>
-    <a href="#">لكسان</a>
-    <a href="#">ساندوتش</a>
-    <a href="#">مظلات سيارات</a>
-    <a href="#">ديكورات</a>
-    <a href="#">قرميد</a>
-    <a href="#">هناجر</a>
-    <a href="#">مشبات</a>
+    <a href="berjolat.html">برجولات</a>
+    <a href="hadayeq.html">حدائق</a>
+    <a href="khayam.html">بيوت شعر</a>
+    <a href="sawater.html">سواتر</a>
+    <a href="mazlat-lksan.html">لكسان</a>
+    <a href="sandwich-panel.html">ساندوتش</a>
+    <a href="mazlat-sayarat.html">مظلات سيارات</a>
+    <a href="decor.html">ديكورات</a>
+    <a href="qarmid.html">قرميد</a>
+    <a href="hangar.html">هناجر</a>
+    <a href="mashabat.html">مشبات</a>
 </nav>
 
 <!-- قسم العنوان مع خلفية واضحة تماماً (بدون أي لون) -->
@@ -403,14 +520,14 @@
 <div class="container">
     <!-- نص تعريف غني بالكلمات المفتاحية -->
     <div class="seo-intro">
-        <p><strong>الظل العربي</strong> يقدم أكبر مجموعة <strong>برجولات حديد وخشب مودرن في الأحساء</strong>. نوفر أكثر من 80 تصميم حصري للجلسات الخارجية والحدائق والمداخل في <strong>الهفوف، المبرز، العيون، الجفر، والمنيزلة</strong>. برجولاتنا تتميز بهيكل حديدي مجلفن مقاوم للصدأ وأسقف خشب طبيعي فاخر، مع إضاءة ليد اختيارية. نقدم <strong>برجولات للحدائق، برجولات للجلسات الخارجية، برجولات للمطاعم والاستراحات</strong> بأعلى جودة وأسعار منافسة. جميع التصاميم عصرية وتناسب جميع الأذواق، مع ضمان يصل إلى 10 سنوات على الهيكل والخشب.</p>
+        <p><strong>خيام - مظلات - سواتر</strong> يقدم أكبر مجموعة <strong>برجولات حديد وخشب مودرن في الأحساء</strong>. نوفر أكثر من 80 تصميم حصري للجلسات الخارجية والحدائق والمداخل في <strong>الهفوف، المبرز، العيون، الجفر، والمنيزلة</strong>. برجولاتنا تتميز بهيكل حديدي مجلفن مقاوم للصدأ وأسقف خشب طبيعي فاخر، مع إضاءة ليد اختيارية. نقدم <strong>برجولات للحدائق، برجولات للجلسات الخارجية، برجولات للمطاعم والاستراحات</strong> بأعلى جودة وأسعار منافسة. جميع التصاميم عصرية وتناسب جميع الأذواق، مع ضمان يصل إلى 10 سنوات على الهيكل والخشب.</p>
     </div>
     
     <h2 class="section-title">جميع تصاميم البرجولات 2026</h2>
     <div class="gallery-grid" id="gallery-grid"></div>
 </div>
 
-<!-- قسم الكلمات المفتاحية في الأسفل بعد الصور -->
+<!-- قسم الكلمات المفتاحية -->
 <div class="container">
     <div class="seo-keywords">
         <h3>كلمات مفتاحية: تصاميم البرجولات</h3>
@@ -418,12 +535,36 @@
     </div>
 </div>
 
+<!-- ===== قسم المقالات الجديد (20 مقالة بدون صور) ===== -->
+<div class="articles-section">
+    <div class="container">
+        <h2 class="section-title">آخر المقالات</h2>
+        <div class="articles-grid" id="articles-grid"></div>
+    </div>
+</div>
+
 <a href="tel:0540925626" class="float-btn phone"><i class="fas fa-phone-alt"></i></a>
 <a href="https://wa.me/966540925626?text=السلام%20عليكم%20أريد%20استفسارًا%20عن%20البرجولات" class="float-btn whatsapp"><i class="fab fa-whatsapp"></i></a>
 
 <footer>
-    <p>الظل العربي © 2026 الأحساء</p>
+    <p>خيام - مظلات - سواتر © 2026 الأحساء</p>
     <p>الهفوف - المبرز - العيون - الجفر - المنيزلة</p>
+    
+    <!-- روابط سريعة لجميع الصفحات الفرعية (لتحسين الفهرسة) -->
+    <div class="quick-links">
+        <a href="berjolat.html">برجولات</a>
+        <a href="hadayeq.html">حدائق</a>
+        <a href="khayam.html">بيوت شعر</a>
+        <a href="sawater.html">سواتر</a>
+        <a href="mazlat-lksan.html">لكسان</a>
+        <a href="sandwich-panel.html">ساندوتش بانل</a>
+        <a href="mazlat-sayarat.html">مظلات سيارات</a>
+        <a href="decor.html">ديكورات</a>
+        <a href="qarmid.html">قرميد</a>
+        <a href="hangar.html">هناجر</a>
+        <a href="mashabat.html">مشبات</a>
+    </div>
+
     <div class="social-links">
         <a href="https://www.instagram.com/aboman4050" target="_blank"><i class="fab fa-instagram"></i></a>
         <a href="https://www.tiktok.com/@khyamiee" target="_blank"><i class="fab fa-tiktok"></i></a>
@@ -582,6 +723,54 @@
         item.innerHTML = `<strong>${k.title}</strong><p>${k.desc}</p>`;
         keywordsGrid.appendChild(item);
     });
+
+    // بيانات الـ 20 مقالة (بدون صور)
+    const articlesData = [
+        { title: "نصائح لاختيار البرجولة المناسبة لحديقتك", excerpt: "دليلك الشامل لاختيار البرجولة المثالية من حيث المواد والمساحة والتصميم.", date: "2026-02-25" },
+        { title: "الفرق بين البرجولات الحديدية والخشبية", excerpt: "مقارنة تفصيلية بين البرجولات الحديدية والخشبية من حيث المتانة والصيانة والتكلفة.", date: "2026-02-22" },
+        { title: "أفكار لتصميم برجولات عصرية", excerpt: "أحدث تصاميم البرجولات التي تجمع بين الجمال والوظيفة في حديقة منزلك.", date: "2026-02-20" },
+        { title: "كم تكلفة تركيب برجولة في الأحساء 2026؟", excerpt: "تقديرات تكلفة البرجولات حسب المساحة والمواد والتصميم.", date: "2026-02-18" },
+        { title: "برجولات مع إضاءة ليد مخفية", excerpt: "تصاميم برجولات عصرية مع إضاءة ليد تضيف أجواء ساحرة ليلاً.", date: "2026-02-15" },
+        { title: "برجولات للحدائق الصغيرة", excerpt: "أفكار مبتكرة لاستغلال المساحات الصغيرة ببرجولات أنيقة.", date: "2026-02-12" },
+        { title: "صيانة البرجولات الخشبية", excerpt: "نصائح للحفاظ على البرجولات الخشبية ومعالجتها ضد العوامل الجوية.", date: "2026-02-10" },
+        { title: "برجولات حديدية مقاومة للصدأ", excerpt: "مميزات الهياكل الحديدية المجلفنة وكيفية اختيار الأفضل.", date: "2026-02-08" },
+        { title: "برجولات للمطاعم والاستراحات", excerpt: "تصاميم برجولات تناسب المشاريع التجارية والاستراحات.", date: "2026-02-05" },
+        { title: "أسئلة شائعة عن تركيب البرجولات", excerpt: "إجابات عن أكثر الأسئلة شيوعاً حول شراء وتركيب البرجولات.", date: "2026-02-03" },
+        { title: "برجولات مع مظلات قماش", excerpt: "دمج البرجولات مع المظلات القماشية لتوفير ظل إضافي.", date: "2026-02-01" },
+        { title: "ألوان وتشطيبات البرجولات", excerpt: "دليل ألوان وتشطيبات البرجولات وكيفية اختيار المناسب لديكور منزلك.", date: "2026-01-28" },
+        { title: "برجولات للفلل والقصور", excerpt: "تصاميم فاخرة للبرجولات تناسب الفلل الكبيرة والقصور.", date: "2026-01-25" },
+        { title: "برجولات قابلة للطي والمتحركة", excerpt: "أنظمة برجولات متحركة تمنحك مرونة في استخدام المساحات.", date: "2026-01-22" },
+        { title: "تركيب برجولات: خطوة بخطوة", excerpt: "مراحل تركيب البرجولة من التصميم إلى التنفيذ.", date: "2026-01-20" },
+        { title: "مشاريع برجولات منفذة في الأحساء", excerpt: "صور لأحدث مشاريع البرجولات المنفذة في الهفوف والمبرز والعيون.", date: "2026-01-18" },
+        { title: "برجولات مع جلسات عربية", excerpt: "تصاميم برجولات تدمج الجلسات العربية التقليدية مع اللمسات العصرية.", date: "2026-01-15" },
+        { title: "مقارنة بين البرجولات المحلية والمستوردة", excerpt: "أيهما أفضل: البرجولات المصنعة محلياً أم المستوردة؟ تحليل شامل.", date: "2026-01-12" },
+        { title: "نصائح قبل شراء برجولة", excerpt: "دليل شراء شامل لتختار أفضل برجولة تناسب احتياجك.", date: "2026-01-10" },
+        { title: "أفضل أنواع الخشب للبرجولات", excerpt: "تعرف على أفضل أنواع الخشب المقاومة للعوامل الجوية.", date: "2026-01-08" }
+    ];
+
+    const articlesGrid = document.getElementById('articles-grid');
+    if (articlesGrid) {
+        articlesData.forEach(article => {
+            const card = document.createElement('div');
+            card.className = 'article-card';
+            const dateObj = new Date(article.date);
+            const arabicDate = dateObj.toLocaleDateString('ar-SA', { year: 'numeric', month: 'short', day: 'numeric' });
+            card.innerHTML = `
+                <div class="article-icon">
+                    <i class="fas fa-newspaper"></i>
+                </div>
+                <div class="article-content">
+                    <h3 class="article-title"><a href="#">${article.title}</a></h3>
+                    <div class="article-meta">
+                        <span><i class="fas fa-calendar-alt"></i> ${arabicDate}</span>
+                    </div>
+                    <p class="article-excerpt">${article.excerpt}</p>
+                    <a href="#" class="read-more">قراءة المزيد</a>
+                </div>
+            `;
+            articlesGrid.appendChild(card);
+        });
+    }
 
     // حماية الصور
     document.querySelectorAll('img').forEach(img => {
