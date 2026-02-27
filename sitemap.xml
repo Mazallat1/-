@@ -1,97 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- الصفحة الرئيسية -->
   <url>
-    <loc>https://mazallat1.github.io/-/index.html</loc>
-    <lastmod>2026-02-26</lastmod>
+    <loc>https://hatim.com.sa/index.html</loc>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
-  
-  <!-- صفحة برجولات -->
   <url>
-    <loc>https://mazallat1.github.io/-/berjolat.html</loc>
-    <lastmod>2026-02-26</lastmod>
+    <loc>https://hatim.com.sa/berjolat.html</loc>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
-  
-  <!-- صفحة تنسيق حدائق -->
   <url>
-    <loc>https://mazallat1.github.io/-/hadayeq.html</loc>
-    <lastmod>2026-02-26</lastmod>
+    <loc>https://hatim.com.sa/hadayeq.html</loc>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
-  
-  <!-- صفحة خيام وبيوت شعر -->
   <url>
-    <loc>https://mazallat1.github.io/-/khayam.html</loc>
-    <lastmod>2026-02-26</lastmod>
+    <loc>https://hatim.com.sa/khayam.html</loc>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
-  
-  <!-- صفحة سواتر -->
   <url>
-    <loc>https://mazallat1.github.io/-/sawater.html</loc>
-    <lastmod>2026-02-26</lastmod>
+    <loc>https://hatim.com.sa/sawater.html</loc>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
-  
-  <!-- صفحة مظلات لكسان -->
   <url>
-    <loc>https://mazallat1.github.io/-/mazlat-lksan.html</loc>
-    <lastmod>2026-02-26</lastmod>
+    <loc>https://hatim.com.sa/mazlat-lksan.html</loc>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
-  
-  <!-- صفحة غرف ساندوتش بنل -->
   <url>
-    <loc>https://mazallat1.github.io/-/sandwich-panel.html</loc>
-    <lastmod>2026-02-26</lastmod>
+    <loc>https://hatim.com.sa/sandwich-panel.html</loc>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
-  
-  <!-- صفحة مظلات سيارات -->
   <url>
-    <loc>https://mazallat1.github.io/-/mazlat-sayarat.html</loc>
-    <lastmod>2026-02-26</lastmod>
+    <loc>https://hatim.com.sa/mazlat-sayarat.html</loc>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
-  
-  <!-- صفحة ديكورات -->
   <url>
-    <loc>https://mazallat1.github.io/-/decor.html</loc>
-    <lastmod>2026-02-26</lastmod>
+    <loc>https://hatim.com.sa/decor.html</loc>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
-  
-  <!-- صفحة قرميد -->
   <url>
-    <loc>https://mazallat1.github.io/-/qarmid.html</loc>
-    <lastmod>2026-02-26</lastmod>
+    <loc>https://hatim.com.sa/qarmid.html</loc>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
-  
-  <!-- صفحة هناجر ومستودعات -->
   <url>
-    <loc>https://mazallat1.github.io/-/hangar.html</loc>
-    <lastmod>2026-02-26</lastmod>
+    <loc>https://hatim.com.sa/hangar.html</loc>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
-  
-  <!-- صفحة مشبات تراثية -->
   <url>
-    <loc>https://mazallat1.github.io/-/mashabat.html</loc>
-    <lastmod>2026-02-26</lastmod>
+    <loc>https://hatim.com.sa/mashabat.html</loc>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
